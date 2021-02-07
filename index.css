@@ -1,0 +1,54 @@
+.container1 {
+    height: 100vh;
+}
+
+.meal_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.meal_search_box {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serarInput {
+    padding: 6px 10rem;
+    text-align: center;
+}
+
+.footbtn {
+    cursor: pointer;
+    outline: 0;
+    width: 55px;
+    padding: 6px 5rem;
+}
+
+.meal_item {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px black;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.meal_img {
+    width: 100%;
+    display: block;
+}
+
+.meal_img img {
+    width: 200px;
+}
+
+#meal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 29px;
+    padding: 20px;
+}
